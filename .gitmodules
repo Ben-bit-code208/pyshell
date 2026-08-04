@@ -1,0 +1,3 @@
+[submodule "Plugins/install"]
+	path = Plugins/install
+	url = git@github.com:Ben-bit-code208/pyshell_install.git
