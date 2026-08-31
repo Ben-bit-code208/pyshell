@@ -1,0 +1,6 @@
+{
+  "beschreibung": "Test",
+  "funktionen": {
+    "test": "Plugins.Test.main:test"
+  }
+}
