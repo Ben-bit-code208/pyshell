@@ -7,6 +7,8 @@ import operator
 import os
 import subprocess
 import sys
+import pdb
+import shutil
 
 
 try:
@@ -169,7 +171,7 @@ while True:
             print("Tippe einfach 'rd <ordnerpfad_zum_entfernen>' z.b 'rd ./test' um im lokalen Verzeichnis den ordner test zu löschen")
         else:
             try:
-                os.rmdir(to_be_rdd)
+                shutil.rmtree(to_be_rdd)
             except Exception as e:
                 print("Fehler:", e, "OS NAME", os.name)
 
